@@ -1,0 +1,38 @@
+
+.btn-send {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color:  transparent !important;
+}
+
+.title-contact {
+    color:  white;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    
+}
+
+.form--control {
+    margin-top: 1rem;
+    width: 100%;
+    height: 200px;
+}
+
+.formm {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: transparent ;
+    border-radius:15px ;
+    border: solid white;
+    padding: 10px;
+    width: 25%;
+}
+.form {
+    justify-content: center;
+}
+.form-control  {
+    margin-top: 2rem;
+    text-align: center;
+}

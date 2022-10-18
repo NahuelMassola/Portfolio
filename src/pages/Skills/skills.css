@@ -1,0 +1,13 @@
+.img-skill {
+    width: 100px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border: solid white;
+    border-radius:15px ;
+}
