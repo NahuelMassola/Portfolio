@@ -5,8 +5,6 @@ import Estudios from '../Estudios/Estudios';
 import { Container, Row , Col } from 'react-bootstrap';
 
 const HabsSkill = () => {
-    
-
     return(
         <Container>
             <Row>

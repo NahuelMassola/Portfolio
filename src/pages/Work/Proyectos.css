@@ -1,0 +1,41 @@
+.img-card {
+    width: 40px;
+    margin-left: 1rem;
+}
+
+.img-proyecto {
+    border: solid 0.5px white; 
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cardContainer {
+    background-color: rgba(3, 3, 3, 0.493);
+    width: 100%;  
+    border: solid 0.5px white; 
+}
+
+.text-card {
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.title-card {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.title-proyct {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+

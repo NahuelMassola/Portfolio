@@ -1,12 +1,11 @@
 .sticky {
-    background-color: rgba(190, 190, 190, 0.493);
+    background-color: rgba(3, 3, 3, 0.493);
     position: sticky;
     top: 0;
     z-index: 1000000;
     width: 100%;  
-    border-bottom: solid 1px white; 
+    border-bottom: solid 0.5px white; 
 }
-
 
 .nav-text {
     color: white !important;
@@ -17,6 +16,7 @@
     margin-left: 1rem;
     text-align: center;
     padding-top: 1rem;
+    
 }
 
 .ms-auto {

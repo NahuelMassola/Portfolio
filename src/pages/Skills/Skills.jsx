@@ -3,11 +3,8 @@ import { SkillContext } from "../../Components/Context/SkillContext";
 import "./skills.css"
 import { Row , Container  } from "react-bootstrap";
 
-
-
-
 const Skills = () => {
-    const { skill } = useContext( SkillContext)
+    const { skill } = useContext( SkillContext);
 
     return (
             <Container className="iconosContainer">

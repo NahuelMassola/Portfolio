@@ -15,14 +15,14 @@ export const SkillContext = createContext();
 
 const SkillContextProvider= ({children}) => {
     const skill = [
-        {id:1,img:html,text:"HTML",},
-        {id:2,img:css,text:"CSS",},
-        {id:3,img:javascript,text:"JavaScript",},
-        {id:4,img:react,text:"React js",},
-        {id:5,img:github,text:"GitHub",},
-        {id:6,img:firebase,text:"FireBase",},
-        {id:7,img:bootstrap,text:"Bootstrap",},
-        {id:8,img:git,text:"Git",},
+        {id:1,img:html,text:"HTML"},
+        {id:2,img:css,text:"CSS"},
+        {id:3,img:javascript,text:"JavaScript"},
+        {id:4,img:react,text:"React js"},
+        {id:5,img:github,text:"GitHub"},
+        {id:6,img:firebase,text:"FireBase"},
+        {id:7,img:bootstrap,text:"Bootstrap"},
+        {id:8,img:git,text:"Git"},
     ]
 
 
