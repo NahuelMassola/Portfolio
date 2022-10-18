@@ -16,13 +16,13 @@ import './Estudios.css'
                     <Col md={12}>
                     <Carousel >
                 {estudios.map((option)=>{
-                    return(    
+                    return( 
                         <Carousel.Item key={option.id} >
                             <img loading="lazy" className="img-carousel d-block w-80"  src={option.img} alt={option.title} />
                             <Carousel.Caption>
-                                <div className='info'>
+                                <Col className='info'>
                                     <p>{option.text}</p>
-                                </div>
+                                </Col>
                             </Carousel.Caption>
                         </Carousel.Item>
                         )})}

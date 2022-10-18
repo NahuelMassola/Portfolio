@@ -13,6 +13,7 @@ const Skills = () => {
                         <> 
                         <div key={option.id} className="col-md-3 text-center">
                             <img className="img-skill" src={option.img} alt=""></img>
+                            <p className="text-white"><strong>{option.text}</strong></p>
                         </div>
                         </>
                     )}

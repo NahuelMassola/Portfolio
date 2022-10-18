@@ -3,6 +3,10 @@
     margin-left: 1rem;
 }
 
+.img-card:hover {
+    scale: 1.2;
+}
+
 .img-proyecto {
     border: solid 0.5px white; 
 }
@@ -11,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 3rem;
 }
 
@@ -37,5 +41,10 @@
     color: white;
     text-align: center;
     margin-top: 3rem;
+    text-decoration: underline rgba(150, 16, 228, 0.637);
 }
 
+button:hover {
+    scale: 1.1;
+    transition: 1s;
+}
