@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { SkillContext } from "../../Components/Context/SkillContext";
+import { SkillContext } from "../Context/SkillContext";
 import "./skills.css"
 import { Row , Container  } from "react-bootstrap";
 
@@ -7,7 +7,7 @@ const Skills = () => {
     const { skill } = useContext( SkillContext);
 
     return (
-            <Container className="iconosContainer">
+            <Container>
                 <Row className="iconos">
                     {skill.map(option =>
                         <> 

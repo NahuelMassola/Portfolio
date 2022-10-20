@@ -1,0 +1,55 @@
+.redes div{
+    display: flex;
+    margin: 5%;
+    color:white;
+    border-radius: 25px;
+    box-shadow: 
+    0 0 1px #609ce9,
+    0 0 2px #609ce9,
+    0 0 4px #609ce9,
+    0 0 8px #609ce9,
+    0 0 16px #609ce9;
+    width: 10% !important;
+    transition: 0.5s;
+}
+.redes div:hover{
+    width: 80% !important;
+}
+
+.img-redes{
+    width: 50px;
+    height: 50px;
+}
+
+.redes p{
+    opacity: 0;
+    visibility: hidden;
+    margin: 2% 0%;
+    position: absolute;
+    transition: 0.5s;
+    width: 150px;
+    font-weight: 100;
+    font-size: 13px;
+    font-family: "neontubes";
+}
+.redes div:hover p{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(50%,-50%);
+    
+}
+.redes div:hover img{
+    opacity: 1;
+    visibility: visible;   
+}
+.redes div:hover{
+    background-color: #072f63c0;
+}
+
+@media only screen and (max-width:1300px)
+{ 
+    .redes div {
+        width: 20% !important;
+    }
+}
+

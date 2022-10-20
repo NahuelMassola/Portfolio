@@ -4,7 +4,7 @@ import Contact from "../src/pages/Contact/Contact";
 import About from "../src/pages/About/About";
 import Home from "./pages/Home/Home";
 import video from "../src/assets/videos/Ink.mp4"
-import HabsSkill from "./Components/HabSkill/HabSkill";
+import HabsSkill from "./pages/HabSkill/HabSkill";
 
 const RouterApp = () => {
     return (

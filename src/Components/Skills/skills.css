@@ -4,6 +4,10 @@
     margin-bottom: 1rem;
 }
 
+.img-skill:hover {
+    scale: 1.2;
+}
+
 .iconos {
     display: flex;
     justify-content: space-between;
@@ -11,3 +15,4 @@
     border: solid white;
     border-radius:15px ;
 }
+

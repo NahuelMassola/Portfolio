@@ -1,6 +1,6 @@
 import { collection, serverTimestamp, addDoc, getFirestore } from "firebase/firestore";
 import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row  } from "react-bootstrap";
 import swal from "sweetalert";
 import { motion } from "framer-motion";
 import "./Contact.css"
@@ -61,8 +61,7 @@ const Contact = () => {
                         <input className="form-control" required type="number" value={telefono} placeholder="Phone" onChange={handleTelefono}/>
                         <textarea className="form-control form--control"  required dftype="text" value={mensaje} placeholder="Message" onChange={handleMensaje}/>
                         <Col className="btn-send">
-                            <button className="box-button">
-                            <span className="text-cyan text-center">Send Message !</span></button>
+                            <button className="btn-se">Send Message!</button>
                         </Col>
                     </motion.form>
                 </Col>

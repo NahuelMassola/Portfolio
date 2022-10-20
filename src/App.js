@@ -8,15 +8,15 @@ import video from "../src/assets/videos/Ink.mp4";
 function App() {
   return (
     <> 
-    <div className="container-fluid">
+      <div className="container-fluid">
 			  <video autoPlay loop muted>
 		      <source src={video} type='video/mp4' />
 		    </video>
 	  	</div>
-    <BrowserRouter>	
-      <NavBar />
-      <RouterApp />
-    </BrowserRouter>    
+      <BrowserRouter>	
+        <NavBar />
+        <RouterApp />
+      </BrowserRouter>    
     </>
   );
 }

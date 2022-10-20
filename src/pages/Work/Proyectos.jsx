@@ -39,8 +39,8 @@ const Proyectos = () => {
                                         })}
                                     </div>
                                     <div className='d-flex justify-content-evenly'>
-                                        <a href={items.linkCodigo}><Button variant="primary">Code</Button></a>
-                                        <a href={items.linkDemo}><Button variant="primary">Demo</Button></a>
+                                        <a href={items.linkCodigo}><Button className='btn-code' variant="primary">Code</Button></a>
+                                        <a href={items.linkDemo}><Button className='btn-code' variant="primary">Demo</Button></a>
                                     </div>
                                 </Card.Body>
                             </Card>

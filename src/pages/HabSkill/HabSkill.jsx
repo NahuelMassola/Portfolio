@@ -1,7 +1,7 @@
 import React from 'react';
 import './HabSkill.css'
-import Skills from '../../pages/Skills/Skills'
-import Estudios from '../Estudios/Estudios';
+import Skills from '../../Components/Skills/Skills'
+import Estudios from '../../Components/Estudios/Estudios';
 import { Container, Row , Col } from 'react-bootstrap';
 
 const HabsSkill = () => {
